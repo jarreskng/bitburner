@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["build"],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": "src/",
+    "rootDir": "src/",
+    "outDir": "dist/",
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "/*": ["*"]
+    }
+  }
+}
+
